@@ -1,4 +1,4 @@
-# Account Number VoiceOver
+#  VoiceOver Account Number
 
 The Accounts screen features a list of accounts, with each list item containing:
 - Built-in images
@@ -7,13 +7,7 @@ The Accounts screen features a list of accounts, with each list item containing:
 - Routing number
 
 ## Overview
-AccessibilityPractice is an iOS application that demonstrates an **Account Screen** built using the MVVM architecture with modular components. The app incorporates VoiceOver accessibility, ensuring that screen readers can accurately read out:
-- Account type
-- Built in image
-- Account number (digit by digit)
-- Routing number (digit by digit)
-
-This approach enhances accessibility for visually impaired users by providing clear, auditory cues for each piece of account information.
+AccessibilityPractice is an iOS application that demonstrates an **Account Screen** structured in MVVM architecture with modular components. The app incorporates VoiceOver ios SwiftUI accessibility, ensuring that screen readers can accurately read out their account information. This approach enhances accessibility for visually impaired users by providing clear, auditory cues for each piece of account information.
 
 ## Features
 - Modular Accounts Screen following **MVVM architecture**
