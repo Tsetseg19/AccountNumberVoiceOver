@@ -10,6 +10,7 @@ import Combine
 
 // AccountRowView to display each account's details
 struct AccountRowView: View {
+    
     var account: AccountModel
     var accountViewModel: AccountsViewModel// Receiving a single account
     
