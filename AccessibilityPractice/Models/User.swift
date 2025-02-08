@@ -6,10 +6,11 @@
 //
 
 import Foundation
+import Combine
 
-public struct User {
+public class User: ObservableObject{
     
-    var name: String
-    var email: String
+    @Published var name: String = ""
+    @Published var email: String = ""
     
 }
